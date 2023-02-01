@@ -1,0 +1,8 @@
+[package]
+name = "curso_formalizacion"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.50.3"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "6010cf523816335f7bae7f8584cb2edaace73940"}
